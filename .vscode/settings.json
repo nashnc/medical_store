@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "src/components/blog/PostListItem copy.js": true,
+    "src/components/blog/PostListItem  before pagenatecopy 2.js": true,
+    "src/components/blog/ListPost copy.js": true,
+    "src/components/blog/ListStock copy.js": true,
+    "src/components/blog/WarehouseListStock copy.js": true
+  },
+  "hide-files.files": [
+    "src/components/blog/PostListItem copy.js",
+    "src/components/blog/PostListItem  before pagenatecopy 2.js",
+    "src/components/blog/ListPost copy.js",
+    "src/components/blog/ListStock copy.js",
+    "src/components/blog/WarehouseListStock copy.js"
+  ]
+}
