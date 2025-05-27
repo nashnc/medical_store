@@ -1,75 +1,60 @@
-# Medical Store
 
-[![GitHub Stars](https://img.shields.io/github/stars/nashnc/medical_store?style=social)](https://github.com/nashnc/medical_store/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/nashnc/medical_store?style=social)](https://github.com/nashnc/medical_store/fork) [![GitHub Issues](https://img.shields.io/github/issues/nashnc/medical_store)](https://github.com/nashnc/medical_store/issues) [![GitHub License](https://img.shields.io/github/license/nashnc/medical_store)](https://github.com/nashnc/medical_store/blob/main/LICENSE) [![Follow @nashnc](https://img.shields.io/github/followers/nashnc?label=Follow&style=social)](https://github.com/nashnc)
 
-A mini React project for managing medical storage, with local storage for offline data persistence.
+```markdown
+# Medical Store
+
+[![GitHub Stars](https://img.shields.io/github/stars/nashnc/medical_store?style=social)](https://github.com/nashnc/medical_store/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/nashnc/medical_store?style=social)](https://github.com/nashnc/medical_store/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/nashnc/medical_store)](https://github.com/nashnc/medical_store/issues)
+[![GitHub License](https://img.shields.io/github/license/nashnc/medical_store)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/nashnc/medical_store)](https://github.com/nashnc/medical_store/commits/main)
+
+## 📦 About
+
+**Medical Store** is a mini project built with React for managing medical inventory using local storage.  
+This application allows users to add, update, delete, and search for medicines, making it a perfect starter project for learning React fundamentals and local storage integration.
+
+## 🚀 Features
+
+- Add, update, and delete medicines
+- Search medicines by name
+- Inventory management with local storage (no backend required)
+- Responsive user interface
+
+## 🛠️ Tech Stack
+
+- React (JavaScript)
+- HTML5 & CSS3
+
+## 📚 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/nashnc/medical_store.git
+   cd medical_store
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the app**
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## Features
-
-- Add, update, and delete medicines or medical items
-- Search and filter items
-- Offline access via browser local storage
-- Simple and responsive UI
-
-## Technologies Used
-
-- **React** (JavaScript)
-- HTML
-- CSS
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm installed
-
-### Installation
-
-bash
-
+> Built with ❤️ by [@nashnc](https://github.com/nashnc)
 ```
-git clone https://github.com/nashnc/medical_store.git
-cd medical_store
-npm install
-```
-
-### Running the App
-
-bash
-
-```
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000/) in your browser.
-
-## Folder Structure
-
-Code
-
-```
-medical_store/
-├── public/
-├── src/
-│   ├── components/
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
-```
-
-## Usage
-
-- Add new medicines with details.
-- Edit or remove existing medicines.
-- All data is kept in your browser’s local storage.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-[MIT License](https://github.com/nashnc/medical_store/blob/main/LICENSE)
